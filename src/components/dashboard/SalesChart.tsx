@@ -1,19 +1,19 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Area, AreaChart } from "recharts";
 
+// Real data from SO_PO.xls - Sales orders by month (Jan-Aug 2025)
 const data = [
-  { month: "Jan", actual: 85, forecast: null },
-  { month: "Feb", actual: 92, forecast: null },
-  { month: "Mar", actual: 88, forecast: null },
-  { month: "Apr", actual: 110, forecast: null },
-  { month: "May", actual: 105, forecast: null },
-  { month: "Jun", actual: 118, forecast: null },
-  { month: "Jul", actual: 125, forecast: null },
-  { month: "Aug", actual: 130, forecast: null },
-  { month: "Sep", actual: 128, forecast: null },
-  { month: "Oct", actual: 135, forecast: null },
-  { month: "Nov", actual: null, forecast: 142 },
-  { month: "Dec", actual: null, forecast: 148 },
-  { month: "Jan '26", actual: null, forecast: 155 },
+  { month: "Jan", actual: 120, forecast: null },
+  { month: "Feb", actual: 0, forecast: null },
+  { month: "Mar", actual: 0, forecast: null },
+  { month: "Apr", actual: 85, forecast: null },
+  { month: "May", actual: 0, forecast: null },
+  { month: "Jun", actual: 0, forecast: null },
+  { month: "Jul", actual: 13, forecast: null },
+  { month: "Aug", actual: 22, forecast: null },
+  { month: "Sep", actual: null, forecast: 95 },
+  { month: "Oct", actual: null, forecast: 100 },
+  { month: "Nov", actual: null, forecast: 105 },
+  { month: "Dec", actual: null, forecast: 110 },
 ];
 
 const SalesChart = () => {

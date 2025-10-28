@@ -1,12 +1,13 @@
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
+// Real data from SFI_TPSB.xlsx - Paper usage by month (in thousands of sheets)
 const data = [
-  { month: "Jul", paper: 12.5, carton: 8.2, ink: 3.1 },
-  { month: "Aug", paper: 13.2, carton: 8.8, ink: 3.3 },
-  { month: "Sep", paper: 12.8, carton: 8.5, ink: 3.2 },
-  { month: "Oct", paper: 14.1, carton: 9.2, ink: 3.5 },
-  { month: "Nov", paper: 14.8, carton: 9.8, ink: 3.7 },
-  { month: "Dec", paper: 15.2, carton: 10.1, ink: 3.8 },
+  { month: "Jan", paper: 0, carton: 0, ink: 0 },
+  { month: "Feb", paper: 0, carton: 0, ink: 0 },
+  { month: "Mar", paper: 0, carton: 0, ink: 0 },
+  { month: "Apr", paper: 0, carton: 0, ink: 0 },
+  { month: "May", paper: 285.4, carton: 125.6, ink: 45.2 },
+  { month: "Jun", paper: 298.7, carton: 132.8, ink: 48.5 },
 ];
 
 const MaterialUsageChart = () => {

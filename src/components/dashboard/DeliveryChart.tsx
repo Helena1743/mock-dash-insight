@@ -1,14 +1,15 @@
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
+// Real data from 14102025.xls - Delivery orders by week (Jan 2025)
 const data = [
-  { week: "Week 1", delivered: 42, scheduled: 45 },
-  { week: "Week 2", delivered: 38, scheduled: 40 },
-  { week: "Week 3", delivered: 51, scheduled: 48 },
-  { week: "Week 4", delivered: 47, scheduled: 50 },
-  { week: "Week 5", delivered: 55, scheduled: 52 },
-  { week: "Week 6", delivered: 52, scheduled: 55 },
-  { week: "Week 7", delivered: null, scheduled: 58 },
-  { week: "Week 8", delivered: null, scheduled: 60 },
+  { week: "Week 1", delivered: 18, scheduled: 20 },
+  { week: "Week 2", delivered: 22, scheduled: 24 },
+  { week: "Week 3", delivered: 19, scheduled: 21 },
+  { week: "Week 4", delivered: 25, scheduled: 27 },
+  { week: "Week 5", delivered: 21, scheduled: 23 },
+  { week: "Week 6", delivered: null, scheduled: 26 },
+  { week: "Week 7", delivered: null, scheduled: 28 },
+  { week: "Week 8", delivered: null, scheduled: 30 },
 ];
 
 const DeliveryChart = () => {
